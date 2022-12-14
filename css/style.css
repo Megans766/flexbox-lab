@@ -19,4 +19,36 @@ html {
     margin: 0;
   }
 
-  
+nav{
+  display: flex;
+  justify-content: space-between;
+  height 55px;
+  background-color: #fff;
+}
+
+nav > div{
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 25px;
+  font-weight: 600;
+}
+
+button {
+  border-radius: 100px;
+  height: 30px;
+  padding: 0 18px;
+}
+
+#log-in {
+  background-color: #f5f8ff;
+  border: 1px solid #dee8ff;
+  color: #0057ff;
+}
+
+#sign-up {
+  background-color: #0057ff;
+  border: none;
+  color: #fff;
+}
+
